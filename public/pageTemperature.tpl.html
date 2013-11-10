@@ -1,0 +1,106 @@
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <!-- Seletor de Cores -->
+            <div class="color-panel hidden-phone">
+                <div class="color-mode-icons icon-color"></div>
+                <div class="color-mode-icons icon-color-close"></div>
+                <div class="color-mode">
+                    <p>Temas</p>
+                    <ul class="inline">
+                        <li class="color-black current color-default" data-style="style"></li>
+                        <li class="color-blue" data-style="blue"></li>
+                        <li class="color-brown" data-style="brown"></li>
+                        <li class="color-purple" data-style="purple"></li>
+                        <li class="color-grey" data-style="grey"></li>
+                        <li class="color-white color-light" data-style="light"></li>
+                    </ul>
+                </div>
+            </div>
+            <h3 class="page-title">
+                Temperatura
+                <small> - Painel de Temperatura</small>
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home"></i>
+                    <a href="#">Home</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li><a href="#">Temperatura</a></li>
+            </ul>
+            <!-- END PAGE TITLE & BREADCRUMB-->
+        </div>
+    </div>
+    <div class="span3">
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption"><i class="icon-reorder"></i>Quarto 1</div>
+                <div class="tools">
+                    <a href="javascript: void(0);" class="collapse"></a>
+                    <a href="javascript: Framework.requestTemperature('TempQuarto_1', true);" class="reload"></a>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="well">
+                    <div id="TempQuarto_1" class="chartContainerTemperature"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="span3">
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption"><i class="icon-reorder"></i>Quarto 2</div>
+                <div class="tools">
+                    <a href="javascript: void(0);" class="collapse"></a>
+                    <a href="javascript: Framework.requestTemperature('TempQuarto_2', true);" class="reload"></a>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="well">
+                    <div id="TempQuarto_2" class="chartContainerTemperature">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="span3">
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption"><i class="icon-reorder"></i>Sala</div>
+                <div class="tools">
+                    <a href="javascript: void(0);" class="collapse"></a>
+                    <a href="javascript: Framework.requestTemperature('TempSala', true);" class="reload"></a>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="well">
+                    <div id="TempSala" class="chartContainerTemperature">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="span3">
+        <div class="portlet">
+            <div class="portlet-title">
+                <div class="caption"><i class="icon-reorder"></i>Cozinha</div>
+                <div class="tools">
+                    <a href="javascript: void(0);" class="collapse"></a>
+                    <a href="javascript: Framework.requestTemperature('TempCozinha', true);" class="reload"></a>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="well">
+                    <div id="TempCozinha" class="chartContainerTemperature">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    Framework._handlePortlets();
+    Charts.chartTemperature();
+</script>

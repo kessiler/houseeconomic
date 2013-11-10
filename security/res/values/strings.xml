@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Security Module - EHA</string>
+    <string name="callButton">Ligar para polícia</string>
+    <string name="mapSearchButton">Menor caminho até sua casa</string>
+</resources>

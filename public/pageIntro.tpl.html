@@ -1,0 +1,123 @@
+[@HEADER]
+<div class="fixed-top">
+    <div class="header navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <a class="brand" href="javascript: void(0);">[@PAGENAMEAPP]</a>
+                <a href="javascript:(0);" class="btn-navbar collapsed" data-toggle="collapse"
+                   data-target=".nav-collapse">
+                    <img alt="" src="public/img/menu-toggler.png"/>
+                </a>
+                <ul class="nav pull-right">
+                    <li class="dropdown user">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img alt="" src="public/img/uploads/no-avatar.png"/>
+                            <span class="username">[@USERSESSION]</span>
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="javascript: void(0);" onclick="Framework.logout();"><i class="icon-off"></i> Logoff</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page-container row-fluid">
+        <div class="page-sidebar nav-collapse collapse">
+            <ul id="menu-left" class="page-sidebar-menu">
+                <li class="toggle hidden-phone" id="hidden-phonetoggle">
+                    <div class="sidebar-toggler hidden-phone"></div>
+                </li>
+                <li id="pageSobre">
+                    <a href="javascript: void(0)" onclick="Framework.loadWindow('pageSobre');">
+                        <i class="icon-external-link"></i>
+                        <span class="title">Sobre o EHA</span>
+                        <span class="selected"></span>
+                    </a>
+                </li>
+                <li id="pageDashboard">
+                    <a href="javascript: void(0)">
+                        <i class="icon-bar-chart"></i>
+                        <span class="title">Indicadores</span>
+                        <span class="arrow"></span>
+                        <span class="selected"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageDashboard');">
+                                Consumo</a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageTemperature');">
+                                Temperatura</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="pageDisp">
+                    <a href="javascript: void(0)">
+                        <i class="icon-sitemap"></i>
+                        <span class="title">Cômodos</span>
+                        <span class="arrow"></span>
+                        <span class="selected"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageDispSala');">
+                                Sala</a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageDispQuartos');">
+                                Quartos</a>
+                        </li>
+                         <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageDispBanheiro');">
+                                Banheiro</a>
+                        </li>                        
+                         <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageDispCozinha');">
+                                Cozinha</a>
+                        </li>
+                         <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageDispCorredor');">
+                                Corredor</a>
+                        </li>
+                         <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageDispVaranda');">
+                                Varanda</a>
+                        </li> 
+
+                        <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageDispGaragem');">
+                                Garagem</a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0)" onclick="Framework.loadWindow('pageDispPiscina');">
+                                Piscina</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="pageUser">
+                    <a href="javascript: void(0)" onclick="Framework.loadWindow('pageUser');">
+                        <i class="icon-user"></i>
+                        <span class="title">Usuário</span>
+                        <span class="selected"></span>
+                    </a>
+                </li>
+                <li id="pageTimeline">
+                    <a href="javascript: void(0)" onclick="Framework.loadWindow('pageTimeline');">
+                        <i class="icon-time"></i>
+                        <span class="title">Timeline de eventos</span>
+                        <span class="selected"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="page-content">
+        </div>
+    </div>
+    [@FOOTERINTRO]
+</div>
+[@FOOTER]

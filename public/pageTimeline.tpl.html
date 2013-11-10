@@ -1,0 +1,47 @@
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <!-- Seletor de Cores -->
+            <div class="color-panel hidden-phone">
+                <div class="color-mode-icons icon-color"></div>
+                <div class="color-mode-icons icon-color-close"></div>
+                <div class="color-mode">
+                    <p>Temas</p>
+                    <ul class="inline">
+                        <li class="color-black current color-default" data-style="style"></li>
+                        <li class="color-blue" data-style="blue"></li>
+                        <li class="color-brown" data-style="brown"></li>
+                        <li class="color-purple" data-style="purple"></li>
+                        <li class="color-grey" data-style="grey"></li>
+                        <li class="color-white color-light" data-style="light"></li>
+                    </ul>
+                </div>
+            </div>
+            <h3 class="page-title">
+                Timeline de eventos
+                <small>Painel de controle de eventos automáticos</small>
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home"></i>
+                    <a href="#">Home</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li><a href="#">Timeline de Eventos</a></li>
+            </ul>
+            <!-- END PAGE TITLE & BREADCRUMB-->
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <ul class="timeline">
+                    [@TIMELINEEVENTS]
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    Framework._handlePortlets();
+    Charts.chartTracking();
+    Charts.chartBars();
+</script>

@@ -1,0 +1,33 @@
+[@HEADER]
+<div class="login">
+    <div class="logo"><img src="[@LOGO_PATH]" alt="Logo Economic House" title="Logo Economic House"></div>
+    <div class="content">
+        <form class="form-vertical login-form" id="loginform">
+            <h3 class="form-title">Acesse sua conta</h3>
+            <div id="error" class="alert alert-error hide">
+                <button id="closeMsgErrorAjax" class="close" data-dismiss="alert"></button>
+                <span id="errormsg"></span>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <div class="input-icon left">
+                        <i class="icon-user"></i>
+                        <input class="m-wrap validate[required] text-input" type="text" placeholder="Username" name="username"/>
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="input-icon left">
+                    <i class="icon-lock"></i>
+                    <input class="m-wrap validate[required] text-input" type="password" placeholder="Password" name="password"/>
+                </div>
+            </div>
+            <div class="form-actions">
+                <input type="hidden" name="action" value="logar">
+                <button type="button" class="btn green pull-right" onclick="Framework._loginValidate();"> Login <i
+                        class="m-icon-swapright m-icon-white"></i></button>
+            </div>
+        </form>
+    </div>
+</div>
+[@FOOTER]
