@@ -5,8 +5,8 @@
       <profile>
         <option name="device" value="2.7in QVGA" />
         <option name="deviceConfiguration" value="Portrait" />
-        <option name="targetHashString" value="android-18" />
-        <option name="theme" value="Theme" />
+        <option name="targetHashString" value="android-19" />
+        <option name="theme" value="Theme.Holo.Light" />
       </profile>
     </option>
     <option name="selection" value="[Full]" />
@@ -17,7 +17,7 @@
         <option name="device" value="2.7in QVGA" />
         <option name="dockMode" value="" />
         <option name="nightMode" value="notnight" />
-        <option name="targetHashString" value="android-18" />
+        <option name="targetHashString" value="android-19" />
         <option name="theme" value="Theme" />
         <option name="visible" value="false" />
       </GlobalState>
@@ -30,13 +30,13 @@
     <list default="true" id="4cd7c249-a662-495b-b5a9-eaf54191a351" name="Default" comment="" />
     <ignored path="houseeconomicsecurity.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1382919891878" ignored="false" />
-    <file path="/strings.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1382921687934" ignored="false" />
+    <file path="/main.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1384738188742" ignored="false" />
+    <file path="/strings.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1384739811394" ignored="false" />
     <file path="/SecurityActivity.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383184457701" ignored="false" />
     <file path="/TelephonyListen.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1382922709743" ignored="false" />
-    <file path="/fragment.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383185707343" ignored="false" />
-    <file path="/MapsActivity.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383183787765" ignored="false" />
-    <file path="/Dummy.txt" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383181208604" ignored="false" />
+    <file path="/fragment.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1384735297909" ignored="false" />
+    <file path="/MapsActivity.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1384745959111" ignored="false" />
+    <file path="/Dummy.txt" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1384738877393" ignored="false" />
     <file path="$PROJECT_DIR$/src/google-play-services_lib/res/values-th/strings.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383181698534" ignored="false" />
     <file path="$PROJECT_DIR$/src/google-play-services_lib/res/values-sw/strings.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383181698534" ignored="false" />
     <file path="$PROJECT_DIR$/src/google-play-services_lib/res/values-sv/strings.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383181698534" ignored="false" />
@@ -92,8 +92,8 @@
     <file path="C:/LocationRouteDirectionMapV2/gen/in/wptrafficanalyzer/locationroutedirectionmapv2/R.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383183249003" ignored="false" />
     <file path="C:/LocationRouteDirectionMapV2/gen/in/wptrafficanalyzer/locationroutedirectionmapv2/BuildConfig.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383183312672" ignored="false" />
     <file path="C:/LocationRouteDirectionMapV2/gen/in/wptrafficanalyzer/locationroutedirectionmapv2/Manifest.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383183249003" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383184158099" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/br/com/houseeconomic/security/Manifest.java" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1383185098317" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1384737278695" ignored="false" />
+    <file path="/maps_activity.xml" changelist="4cd7c249-a662-495b-b5a9-eaf54191a351" time="1384739744918" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +109,113 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/MapsActivity.java" line="60" class="br.com.houseeconomic.security.MapsActivity$1" package="br.com.houseeconomic.security">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/MapsActivity.java" line="86" class="br.com.houseeconomic.security.MapsActivity$1" package="br.com.houseeconomic.security">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/MapsActivity.java" line="142" class="br.com.houseeconomic.security.MapsActivity" package="br.com.houseeconomic.security">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/MapsActivity.java" line="149" class="br.com.houseeconomic.security.MapsActivity" package="br.com.houseeconomic.security">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/DirectionsJSON.java" line="23" class="br.com.houseeconomic.security.DirectionsJSON" package="br.com.houseeconomic.security">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/MapsActivity.java" line="206" class="br.com.houseeconomic.security.MapsActivity.ParserTask" package="br.com.houseeconomic.security">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/MapsActivity.java" line="224" class="br.com.houseeconomic.security.MapsActivity.ParserTask" package="br.com.houseeconomic.security">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -154,14 +261,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SecurityActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SecurityActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/SecurityActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="72" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.4879449">
+            <state line="23" column="22" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapsActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/MapsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="254" column="4" selection-start="7059" selection-end="7059" vertical-scroll-proportion="0.94086957">
               <folding>
-                <element signature="e#1299#1549#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1837#3183#0" expanded="true" />
+                <element signature="e#3164#3165#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleMap.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar!/com/google/android/gms/maps/GoogleMap.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="17" selection-start="3447" selection-end="3489" vertical-scroll-proportion="-8.52">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,19 +295,55 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="70" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0">
+            <state line="23" column="77" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <file leaf-file-name="DirectionsJSON.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/DirectionsJSON.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="0" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Binder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/android/os/Binder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="329" column="0" selection-start="12014" selection-end="12014" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/android/os/AsyncTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="286" column="0" selection-start="12267" selection-end="12267" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/android/app/Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5206" column="0" selection-start="220267" selection-end="220267" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maps_activity.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/maps_activity.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="19" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
+            <state line="9" column="36" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,13 +360,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/br/com/houseeconomic/security/TelephonyListen.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/br/com/houseeconomic/security/DirectionsJSON.java" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/shape.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/botao_foco.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/botao_rounded.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/sel_button.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout/maps_activity.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/br/com/houseeconomic/security/SecurityActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/br/com/houseeconomic/security/MapsActivity.java" />
-        <option value="$PROJECT_DIR$/src/br/com/houseeconomic/security/DirectionsJSON.java" />
       </list>
     </option>
   </component>
@@ -231,6 +397,10 @@
   </component>
   <component name="ProjectStructureProblems">
     <ignored-problems>
+      <problem id="invalid-module-dependency(module:security,&lt; Android 4.3 Platform &gt;)" />
+      <problem id="invalid-module-dependency(module:security,google-play-services_lib)" />
+      <problem id="unused-library(library:project:android-support-v4)" />
+      <problem id="unused-library(library:project:google-play-services)" />
       <problem id="unused-library(library:project:google-play-services1)" />
     </ignored-problems>
   </component>
@@ -247,7 +417,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -297,6 +466,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,18 +475,18 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar!/" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
-  <component name="RunManager" selected="Android Application.houseeconomicsecurity">
+  <component name="RunManager" selected="Android Application.homesecurity">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -349,19 +519,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -388,6 +545,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -442,7 +612,7 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="houseeconomicsecurity" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="false" name="homesecurity" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="security" />
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
@@ -461,7 +631,7 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.houseeconomicsecurity" />
+      <item index="0" class="java.lang.String" itemvalue="Android Application.homesecurity" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -499,22 +669,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2419175" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38795987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6008919" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -527,7 +698,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67001116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -564,7 +734,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -597,30 +767,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-18/android/content/ContextWrapper.java">
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/android/os/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="19" selection-start="2515" selection-end="2515" vertical-scroll-proportion="0.33295062" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/TelephonyListen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="50" selection-start="876" selection-end="876" vertical-scroll-proportion="0.5120551">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="48" selection-start="158" selection-end="158" vertical-scroll-proportion="0.09272727">
+        <state line="286" column="0" selection-start="12267" selection-end="12267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-18/android/view/View.java">
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4180" column="16" selection-start="161856" selection-end="161856" vertical-scroll-proportion="0.3321739">
+        <state line="5206" column="0" selection-start="220267" selection-end="220267" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/maps_activity.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -630,21 +796,17 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="29" column="0" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="53" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/android/app/Instrumentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="155" column="0" selection-start="6300" selection-end="6300" vertical-scroll-proportion="3.3157895" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/maps_activity.xml">
@@ -652,69 +814,74 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="525" selection-end="525" vertical-scroll-proportion="0.24847747">
+        <state line="9" column="36" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/google/google_play_services/samples/maps/src/com/example/mapdemo/MainActivity.java">
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/res/values/version.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="40" selection-start="1233" selection-end="1233" vertical-scroll-proportion="-1.8495982" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar!/com/google/android/gms/maps/model/BitmapDescriptorFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="182" selection-end="182" vertical-scroll-proportion="0.100472815">
+        <state line="2" column="19" selection-start="70" selection-end="70" vertical-scroll-proportion="0.061818182">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar!/com/google/android/gms/maps/model/PolylineOptions.class">
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="182" selection-end="182" vertical-scroll-proportion="0.100472815">
+        <state line="5206" column="0" selection-start="220267" selection-end="220267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/android/os/Binder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="70" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.0">
+        <state line="329" column="0" selection-start="12014" selection-end="12014" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-19/android/os/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="286" column="0" selection-start="12267" selection-end="12267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/DirectionsJSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="4" selection-start="2269" selection-end="2269" vertical-scroll-proportion="1.6394948">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1664#1672#0" expanded="true" />
-          </folding>
+        <state line="58" column="0" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-18/android/app/Activity.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/SecurityActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3553" column="16" selection-start="151684" selection-end="151684" vertical-scroll-proportion="0.33295062">
+        <state line="23" column="22" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar!/com/google/android/gms/maps/GoogleMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="17" selection-start="3447" selection-end="3489" vertical-scroll-proportion="-8.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="77" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/MapsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-3.020666">
+        <state line="254" column="4" selection-start="7059" selection-end="7059" vertical-scroll-proportion="0.94086957">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/houseeconomic/security/SecurityActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="72" selection-start="1464" selection-end="1464" vertical-scroll-proportion="0.4879449">
-          <folding>
-            <element signature="e#1299#1549#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1837#3183#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -759,7 +926,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 4.3 Platform</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -783,7 +950,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v4</last-edited>
+          <last-edited>google-play-services</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,13 +1,16 @@
 package br.com.houseeconomic.security;
 
+import android.app.Activity;
+import android.app.Dialog;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
-import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -25,7 +28,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
-public class MapsActivity extends FragmentActivity {
+public class MapsActivity extends Activity {
 
     GoogleMap map;
     ArrayList<LatLng> markerPoints;
@@ -34,59 +37,63 @@ public class MapsActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.maps_activity);
+        int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
+
+        if(status != ConnectionResult.SUCCESS){
+            int requestCode = 10;
+            Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, this, requestCode);
+            dialog.show();
+        } else  {
+            markerPoints = new ArrayList<LatLng>();
 
 
-        markerPoints = new ArrayList<LatLng>();
+            MapFragment fm = (MapFragment) getFragmentManager().findFragmentById(R.id.mapFragment);
+
+            map = fm.getMap();
+
+            if (map != null) {
+
+                map.setOnMapClickListener(new OnMapClickListener() {
+
+                    @Override
+                    public void onMapClick(LatLng point) {
+
+                        if (markerPoints.size() > 1) {
+                            markerPoints.clear();
+                            map.clear();
+                        }
 
 
-        SupportMapFragment fm = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+                        markerPoints.add(point);
 
-        map = fm.getMap();
+                        MarkerOptions options = new MarkerOptions();
 
-        if (map != null) {
+                        options.position(point);
 
-            map.setMyLocationEnabled(true);
+                        if (markerPoints.size() == 1) {
+                            options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                        } else if (markerPoints.size() == 2) {
+                            options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+                        }
 
-            map.setOnMapClickListener(new OnMapClickListener() {
 
-                @Override
-                public void onMapClick(LatLng point) {
+                        map.addMarker(options);
 
-                    if (markerPoints.size() > 1) {
-                        markerPoints.clear();
-                        map.clear();
+                        if (markerPoints.size() >= 2) {
+                            LatLng origin = markerPoints.get(0);
+                            LatLng dest = markerPoints.get(1);
+
+
+                            String url = getDirectionsUrl(origin, dest);
+
+                            DownloadTask downloadTask = new DownloadTask();
+
+                            downloadTask.execute(url);
+                        }
+
                     }
-
-
-                    markerPoints.add(point);
-
-                    MarkerOptions options = new MarkerOptions();
-
-                    options.position(point);
-
-                    if (markerPoints.size() == 1) {
-                        options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
-                    } else if (markerPoints.size() == 2) {
-                        options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
-                    }
-
-
-                    map.addMarker(options);
-
-                    if (markerPoints.size() >= 2) {
-                        LatLng origin = markerPoints.get(0);
-                        LatLng dest = markerPoints.get(1);
-
-
-                        String url = getDirectionsUrl(origin, dest);
-
-                        DownloadTask downloadTask = new DownloadTask();
-
-                        downloadTask.execute(url);
-                    }
-
-                }
-            });
+                });
+            }
         }
     }
 
@@ -240,8 +247,10 @@ public class MapsActivity extends FragmentActivity {
 
             }
 
-
-            map.addPolyline(lineOptions);
+            if(lineOptions != null) {
+                map.addPolyline(lineOptions);
+            }
         }
     }
+
 }

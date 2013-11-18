@@ -6,13 +6,13 @@
  * To change this template use File | Settings | File Templates.
  */
 var Framework = {
-    verifyOnOff: function() {
+    verifyOnOff: function(nameComodo) {
         Framework.request('loadIpArduino', '', 'GET', false, function(response) {
             $.ajax({
                 type: 'GET',
                 url: response,
                 dataType: 'jsonp',
-                data: 'RequestStatus',
+                data: nameComodo,
                 crossDomain: true,
                 cache: false,
                 jsonp : false,
@@ -88,7 +88,7 @@ var Framework = {
                     }
                 },
                 error: function(error) {
-                    console.error(error.message);
+                    console.error(error.msg);
                 }
             });
         });
@@ -122,7 +122,7 @@ var Framework = {
                 responseHandler(response);
             },
             error: function (error) {
-                console.error(error.message);
+                console.error(error.msg);
             },
             complete: function () {
                 if(loading) {
