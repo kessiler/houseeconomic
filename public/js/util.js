@@ -88,7 +88,7 @@ var Framework = {
                     }
                 },
                 error: function(error) {
-                    console.error(error.msg);
+                    console.error(error);
                 }
             });
         });
@@ -122,7 +122,7 @@ var Framework = {
                 responseHandler(response);
             },
             error: function (error) {
-                console.error(error.msg);
+                console.error(error);
             },
             complete: function () {
                 if(loading) {

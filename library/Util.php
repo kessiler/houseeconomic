@@ -87,6 +87,25 @@ class Util {
         }
     }
 
+    public static function triggerLoadIP() {
+        $db = Db::getInstance()->select()
+            ->from('user', array('userArduinoIp', 'userArduinoPort'))
+            ->limit(1);
+        $values = $db->fetchRow();
+        if(!empty($values)) {
+            if(!strpos($values['userArduinoIp'],'http://')) {
+                $values = 'http://'.$values['userArduinoIp'].':'.$values['userArduinoPort'];
+            }
+            if(!(substr($values, -1) =='/')) $values =  $values.'/';
+        }
+        return $values;
+    }
+
+    private function updateTrigger() {
+        $arrayValues = Db::getInstance()->select()->from("userevent")->order("timeExecution")->fetchAll();
+        file_put_contents(".\\triggers\\events.json", json_encode($arrayValues));
+    }
+
     public function createEvent($objEvent, $userId) {
         $objInsert = array('timeExecution' => $objEvent->timeExec,
                            'usesCheckPresence' => empty($objEvent->presenca) ? 0 : 1,
@@ -97,11 +116,15 @@ class Util {
                            'dispEvent' => $objEvent->disp,
                            'userId' => $userId,
                            'dateCreate' => 'now()');
-        return Db::getInstance()->insert('userevent', $objInsert, true);
+        $intValue = Db::getInstance()->insert('userevent', $objInsert, true);
+        $this->updateTrigger();
+        return $intValue;
     }
 
     public function removeEvent($idEvent, $userId) {
-        return Db::getInstance()->delete('userevent', "idEvent=".$idEvent." and userId=".$userId);
+        $intValue = Db::getInstance()->delete('userevent', "idEvent=".$idEvent." and userId=".$userId);
+        $this->updateTrigger();
+        return $intValue;
     }
 
     public function dadosTimeLine($userId) {
@@ -126,8 +149,8 @@ class Util {
             }
             $pageTimeLine .= '<li class="'.$this->coresTimeLime[$iterator].'" id="idTimeLime'.$values['idEvent'].'">';
                 $pageTimeLine .= '<div class="timeline-time">';
-                    $pageTimeLine .= '<span class="date">Criado em '. date('d/m/Y H:m:s', strtotime($values['dateCreate'])).' </span>';
-                    $pageTimeLine .= '<span class="time">'.date('H:m', strtotime($values['timeExecution'])).'</span>';
+                    $pageTimeLine .= '<span class="date">Criado em '. date('d/m/Y H:i:s', strtotime($values['dateCreate'])).' </span>';
+                    $pageTimeLine .= '<span class="time">'.date('H:i', strtotime($values['timeExecution'])).'</span>';
                 $pageTimeLine .= '</div>';
                 $pageTimeLine .= '<div class="timeline-icon"><i class="icon-lightbulb"></i></div>';
                 $pageTimeLine .= '<div class="timeline-body">';

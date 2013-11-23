@@ -97,7 +97,8 @@ class Application
                         if(!strpos($endeIP,'http://')) {
                             $endeIP = 'http://'.$endeIP;
                         }
-                        echo $endeIP;
+                        if(!(substr($endeIP, -1) =='/'))
+                            echo $endeIP.'/';
                         break;
                 }
             }else {
