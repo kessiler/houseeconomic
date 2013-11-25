@@ -51,6 +51,9 @@ final class Socket
                             $this->Db->select('userId')->from('user')->where('userSerialXBee', $jSON->Serial);
                             $data = $this->Db->fetchObject();
                             if(!empty($data)) {
+                                if($jSON->Alarme) {
+                                    // realiza a chamada no GCM..
+                                }
                                 $arrayValues = array('userId' => $data->userId, 'userPotencia'  => $data->Potencia, 'userCorrente' => $data->Corrente, 'userDateInfo' => 'now()');
                                 $this->Db->insert('userdata',$arrayValues, true);
                             }

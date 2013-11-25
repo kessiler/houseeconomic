@@ -2,13 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8478523d-50b3-49fa-b055-bc7da11aedaf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Application.php" afterPath="$PROJECT_DIR$/library/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/gen/br/com/houseeconomic/security/BuildConfig.java" afterPath="$PROJECT_DIR$/security/gen/br/com/houseeconomic/security/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/gen/br/com/houseeconomic/security/Manifest.java" afterPath="$PROJECT_DIR$/security/gen/br/com/houseeconomic/security/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/gen/br/com/houseeconomic/security/R.java" afterPath="$PROJECT_DIR$/security/gen/br/com/houseeconomic/security/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/DirectionsJSON.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/DirectionsJSON.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/MapsActivity$1.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/MapsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/MapsActivity$DownloadTask.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/MapsActivity$DownloadTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/MapsActivity$ParserTask.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/MapsActivity$ParserTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/MapsActivity.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/MapsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$id.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$integer.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$integer.class" afterPath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$layout.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$layout.class" afterPath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$string.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$styleable.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$styleable.class" afterPath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R.class" afterPath="$PROJECT_DIR$/security/out/production/security/com/google/android/gms/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/SecurityActivity$1.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/SecurityActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/SecurityActivity$2.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/SecurityActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/SecurityActivity.class" afterPath="$PROJECT_DIR$/security/out/production/security/br/com/houseeconomic/security/SecurityActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/security.apk" afterPath="$PROJECT_DIR$/security/out/production/security/security.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/out/production/security/security.unaligned.apk" afterPath="$PROJECT_DIR$/security/out/production/security/security.unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/AndroidManifest.xml" afterPath="$PROJECT_DIR$/security/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/houseeconomic/gen/br/com/houseeconomic/BuildConfig.java" afterPath="$PROJECT_DIR$/houseeconomic/gen/br/com/houseeconomic/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/src/br/com/houseeconomic/security/DirectionsJSON.java" afterPath="$PROJECT_DIR$/security/src/br/com/houseeconomic/security/DirectionsJSON.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/houseeconomic/gen/br/com/houseeconomic/Manifest.java" afterPath="$PROJECT_DIR$/houseeconomic/gen/br/com/houseeconomic/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/src/br/com/houseeconomic/security/MapsActivity.java" afterPath="$PROJECT_DIR$/security/src/br/com/houseeconomic/security/MapsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/houseeconomic/gen/br/com/houseeconomic/R.java" afterPath="$PROJECT_DIR$/houseeconomic/gen/br/com/houseeconomic/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/src/br/com/houseeconomic/security/SecurityActivity.java" afterPath="$PROJECT_DIR$/security/src/br/com/houseeconomic/security/SecurityActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Socket.php" afterPath="$PROJECT_DIR$/library/Socket.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Util.php" afterPath="$PROJECT_DIR$/library/Util.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/util.js" afterPath="$PROJECT_DIR$/public/js/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/triggers/events.json" afterPath="$PROJECT_DIR$/triggers/events.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/res/layout/main.xml" afterPath="$PROJECT_DIR$/security/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/res/values/strings.xml" afterPath="$PROJECT_DIR$/security/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/houseeconomic/.idea/workspace.xml" afterPath="$PROJECT_DIR$/houseeconomic/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/.idea/workspace.xml" afterPath="$PROJECT_DIR$/security/.idea/workspace.xml" />
     </list>
     <ignored path="smartcontrollerenergy.iws" />
@@ -35,7 +64,7 @@
       <file leaf-file-name="pageHeader.tpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/pageHeader.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -44,7 +73,7 @@
       <file leaf-file-name="Trigger.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library/Trigger.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="849" selection-end="849" vertical-scroll-proportion="0.05862069" vertical-offset="408" max-vertical-offset="1496">
+            <state line="50" column="20" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.508046" vertical-offset="408" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -53,34 +82,7 @@
       <file leaf-file-name="util.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="501" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14790">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/Application.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="24" selection-start="4648" selection-end="4866" vertical-scroll-proportion="-19.73077" vertical-offset="1119" max-vertical-offset="2312">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Util.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/Util.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="106" selection-start="4338" selection-end="4338" vertical-scroll-proportion="-18.153847" vertical-offset="1296" max-vertical-offset="3689">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/triggers/events.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="39" selection-start="30" selection-end="39" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+            <state line="337" column="37" selection-start="12491" selection-end="12491" vertical-scroll-proportion="0.0" vertical-offset="5363" max-vertical-offset="14790">
               <folding />
             </state>
           </provider>
@@ -89,7 +91,25 @@
       <file leaf-file-name="Socket.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/Socket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="136" selection-end="321" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1836">
+            <state line="50" column="50" selection-start="1661" selection-end="1661" vertical-scroll-proportion="-11.153846" vertical-offset="560" max-vertical-offset="1887">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/Application.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="54" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="2312">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/Util.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="150" column="62" selection-start="6462" selection-end="6462" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="3689">
               <folding />
             </state>
           </provider>
@@ -113,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/pageDispCozinha.tpl.html" />
         <option value="$PROJECT_DIR$/public/pageDispGaragem.tpl.html" />
         <option value="$PROJECT_DIR$/public/pageDispPiscina.tpl.html" />
         <option value="$PROJECT_DIR$/public/pageDispQuartos.tpl.html" />
@@ -127,8 +146,9 @@
         <option value="$PROJECT_DIR$/library/Connection.php" />
         <option value="$PROJECT_DIR$/library/Application.php" />
         <option value="$PROJECT_DIR$/public/js/util.js" />
-        <option value="$PROJECT_DIR$/library/Util.php" />
         <option value="$PROJECT_DIR$/library/Trigger.php" />
+        <option value="$PROJECT_DIR$/library/Socket.php" />
+        <option value="$PROJECT_DIR$/library/Util.php" />
       </list>
     </option>
   </component>
@@ -165,6 +185,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,7 +234,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,8 +242,8 @@
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="last_opened_file_path" value="C:/" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -285,7 +305,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.670282" order="0" side_tool="false" content_ui="combo" />
@@ -297,6 +316,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -314,6 +334,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/library/Socket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="136" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/pageDispPiscina.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="40" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.8827586" vertical-offset="371" max-vertical-offset="1241" />
@@ -341,30 +368,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/highcharts-more.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="6251" selection-end="6251" vertical-scroll-proportion="0.36466593" vertical-offset="1" max-vertical-offset="952">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="19" column="52" selection-start="6251" selection-end="6251" vertical-scroll-proportion="0.36466593" vertical-offset="1" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/highcharts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="61" selection-start="5678" selection-end="5678" vertical-scroll-proportion="0.039627038" vertical-offset="0" max-vertical-offset="858">
-          <folding />
-        </state>
+        <state line="2" column="61" selection-start="5678" selection-end="5678" vertical-scroll-proportion="0.039627038" vertical-offset="0" max-vertical-offset="858" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/pageHeader.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="24" selection-start="4648" selection-end="4866" vertical-scroll-proportion="-19.73077" vertical-offset="1119" max-vertical-offset="2312">
           <folding />
         </state>
       </provider>
@@ -376,37 +390,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/Util.php">
+    <entry file="file://$PROJECT_DIR$/library/Application.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="106" selection-start="4338" selection-end="4338" vertical-scroll-proportion="-18.153847" vertical-offset="1296" max-vertical-offset="3689">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Socket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="136" selection-end="321" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="501" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14790">
+        <state line="44" column="54" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="2312">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/triggers/events.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="39" selection-start="30" selection-end="39" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="62" selection-start="6462" selection-end="6462" vertical-scroll-proportion="0.0" vertical-offset="2091" max-vertical-offset="3689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="337" column="37" selection-start="12491" selection-end="12491" vertical-scroll-proportion="0.0" vertical-offset="5363" max-vertical-offset="14790">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Socket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="50" selection-start="1661" selection-end="1661" vertical-scroll-proportion="-11.153846" vertical-offset="560" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/Trigger.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="849" selection-end="849" vertical-scroll-proportion="0.05862069" vertical-offset="408" max-vertical-offset="1496">
+        <state line="50" column="20" selection-start="2346" selection-end="2346" vertical-scroll-proportion="0.508046" vertical-offset="408" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>

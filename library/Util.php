@@ -143,7 +143,7 @@ class Util {
             if($values['dispEvent'] == 'PortaoGaragem' && $values['actionExecute'] == 1)
                 $acao = 'Abrir';
             else {
-                if($values['actionExecute'] == 0 && $values['dispEvent'] = 'PortaoGaragem') {
+                if($values['actionExecute'] == 0 && $values['dispEvent'] == 'PortaoGaragem') {
                     $acao = 'Fechar';
                 }
             }
