@@ -34,7 +34,7 @@
         <activity android:name="br.com.houseeconomic.security.MapsActivity" android:configChanges="keyboardHidden|orientation|screenSize"></activity>
         <meta-data
                 android:name="com.google.android.maps.v2.API_KEY"
-                android:value="AIzaSyA8Dt9bUt-nanAczxTq2mb9NpufJg-eLmI"/>
+                android:value="AIzaSyA8Dt9bUt-nanAczxTq2mb9HHshshsshdhdhbebrjjddggghdhdhdhNpufJg-eLmI"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
         <activity android:name="br.com.houseeconomic.security.Preferences" android:theme="@android:style/Theme.Holo.Light" android:label="@string/configmenu" android:configChanges="keyboardHidden|orientation|screenSize"></activity>
     </application>
